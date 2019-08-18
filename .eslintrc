@@ -1,0 +1,49 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["airbnb", "prettier"],
+  "plugins": ["jsx-a11y", "import", "flowtype", "react", "fp"],
+  "rules": {
+    "complexity": ["error", 5],
+    "max-depth": ["error", 4],
+    "max-lines": ["error", 300],
+    "max-statements": ["error", 20],
+    "consistent-return": 0,
+    "default-case": 0,
+    "guard-for-in": 0,
+    "one-var": 0,
+    "no-continue": 0,
+    "no-debugger": 0,
+    "no-param-reassign": 0,
+    "no-undef": 0,
+    "no-restricted-syntax": 0,
+    "no-return-assign": 0,
+    "import/no-unresolved": 0,
+    "import/extensions": 0,
+    "no-cond-assign": 0,
+    "no-nested-ternary": 0,
+    "no-underscore-dangle": 0,
+    "no-use-before-define": 0,
+    "no-plusplus": 0,
+    "react/jsx-closing-tag-location": 0,
+    "react/no-unused-prop-types": 0,
+    "jsx-a11y/anchor-is-valid": 0,
+    "react/jsx-indent": 0,
+    "react/jsx-uses-react": 2,
+    "react/jsx-uses-vars": 2,
+    "react/jsx-filename-extension": 0,
+    "react/no-array-index-key": 0,
+    "react/no-unused-state": 0,
+    "react/prop-types": 0,
+    "react/react-in-jsx-scope": 2,
+    "react/require-default-props": 0,
+    "flowtype/define-flow-type": 1,
+    "flowtype/use-flow-type": 1,
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
+    "import/prefer-default-export": 0
+  },
+  "settings": {
+    "import/resolver": {
+      "babel-plugin-root-import": {}
+    }
+  }
+}
